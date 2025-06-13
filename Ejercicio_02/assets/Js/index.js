@@ -1,9 +1,6 @@
 const btnVerificar = document.querySelector("#btn-check");
 const textWarning = document.querySelector("#text-warning");
-const a = Number(document.querySelector("#count1").value);
-const b = Number(document.querySelector("#count2").value);
-const c = Number(document.querySelector("#count3").value);
-let suma = a + b + c;
+
 
 btnVerificar.addEventListener("click", allStickers)
 
