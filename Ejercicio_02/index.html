@@ -10,21 +10,26 @@
     <title>Ejercicio 2</title>
 </head>
 <body>
+    <article>
+        <h1 class="text">Puedes llevar hasta 10 stickers en total.</h1>
+    </article>
     <section class="card-stickers">
         <div class="stickers">
             <img  src="./assets/img/eagle.png" alt="">
-            <input class="input-reloc" type="number" min="0">
+            <input class="input-reloc" id="count1" type="number" min="0">
         </div>
         <div class="stickers">
             <img src="./assets/img/Logo_gotharo.png" alt="">
-            <input class="input-reloc" type="number" min="0">
-
+            <input class="input-reloc" id="count2" type="number" min="0">
         </div>
         <div class="stickers">
             <img src="./assets/img/GAto.png" alt="">
-            <input class="input-reloc" type="number" min="0">
-
+            <input class="input-reloc" id="count3" type="number" min="0">
         </div>
+    </section>
+    <h2 class="text-warning" id="text-warning"></h2>
+    <section class="btn-pos">
+        <button class="btn-verificar" id="btn-check">VERIFICAR</button>
     </section>
     <script src="./assets/Js/index.js"></script>
 </body>
