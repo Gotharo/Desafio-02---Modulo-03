@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(20, 20, 20);
+    height: 100vh;
+}
+
+.card-stickers {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-8rem);
+}
+.stickers {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-reloc {
+    width: 15%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}

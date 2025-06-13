@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(20, 20, 20);
+    height: 100vh;
+}
+
+.img-layout {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* .img-border {
+} */
+
+.border {
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 50%;
+}
+
+.logo:hover {
+    transform: scale(.98);
+}
